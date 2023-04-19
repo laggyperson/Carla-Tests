@@ -52,7 +52,7 @@ def main():
 	# Load in world
 	world = client.get_world()
 
-	# Get blueprints and choose one at random fro ego vehicle
+	# Get blueprints and choose one at random for ego vehicle
 	blueprint_library = world.get_blueprint_library()
 	ego_bp = random.choice(blueprint_library.filter('vehicle'))
 
