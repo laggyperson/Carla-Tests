@@ -80,7 +80,7 @@ def main():
             curr_pos = c.get_transform()
             curr_pos.location.y += 3
             c.set_transform(curr_pos)
-            print("Moved NPC to: x: {}, y: {}, z: {}".format(spawn_curr.location.x, spawn_curr.location.y, spawn_curr.location.z))
+            print("Moved NPC to: x: {}, y: {}, z: {}".format(curr_pos.location.x, curr_pos.location.y, curr_pos.location.z))
         # Ticking the world
         world.tick()
 
